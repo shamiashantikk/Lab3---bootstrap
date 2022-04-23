@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Person Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <style>
+    body{
+        background-color: #f0f0f0;
+        width: 700px;
+        float: center;
+    }
+    hr.style1{
+	    border-top: 1px solid #8c8b8b;
+    }
+    hr.style2{
+	    border-bottom-width: 1px solid #8c8b8b;
+    }
+    .float-md-right {
+        float: right;
+        width: ;
+    }
+    .button {
+        background-color:deepskyblue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+    
+        <h1>Person Form</h1>
+        <hr class="style1">
+    
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>Error Messages.
+        </div>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="formGroupExampleInput">Title </label>
+                <input type="text" class="form-control" placeholder="Mr.">
+            </div>
+            <div class="form-group col-md-5">
+                <label for="formGroupExampleInput">First Name </label>
+                <input type="text" class="form-control" placeholder="First name">
+            </div>  
+            <div class="form-group col-md-5">
+                <label for="formGroupExampleInput">Last Name </label>
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="exampleFormControlSelect1">Gender</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="formGroupExampleInput">Date of Birth </label>
+                <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+            </div>
+        </div>
+
+        <div class="form-group col-md-12">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Street">
+        </div>
+
+        <div class="from-row">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="City">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="State">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Postcode">
+            </div>
+            
+            <div class="form-group col-md-6">
+                <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="Country">
+                    <option>China</option>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                    <option>Malaysia</option>
+                    <option>Japan</option>
+                    <option>Philiphines</option>
+                    <option>Vietnam</option>
+                    <option>Turkey</option>
+                    <option>Iran</option>
+                    <option>Thailand</option>
+                    <option>Iraq</option>
+                    <option>Myanmar</option>
+                    <option>South Korea</option>
+                    <option>North Korea</option>
+                    <option>Saudi Arabia</option>
+                    <option>Jordan</option>
+                    <option>Qatar</option>
+                    <option>Brunei</option>
+                </select>
+            </div>
+        </div>
+        </form>
+        <hr class="style2"> 
+        <button type="button" class="btn btn-primary float-md-right">Register</button>
+    </div>
+    </div>
+</body>
+</html>
